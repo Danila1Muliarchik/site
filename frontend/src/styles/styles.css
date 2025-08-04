@@ -1,0 +1,246 @@
+/* Общие стили */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.5;
+    color: #2c3e50;
+    background-color: #f9fafb;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 95%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 15px;
+}
+
+/* Заголовки */
+h1, h2, h3, h4, h5, h6 {
+    color: #1a3d7c;
+    margin-top: 0;
+    font-weight: 700;
+}
+
+h1 {
+    font-size: 32px;
+    border-bottom: 3px solid #1a3d7c;
+    padding-bottom: 10px;
+    margin-bottom: 25px;
+    text-transform: uppercase;
+}
+
+h2 {
+    font-size: 26px;
+    border-left: 6px solid #1a3d7c;
+    padding-left: 12px;
+    margin: 30px 0 20px;
+}
+
+h3 {
+    font-size: 20px;
+    margin: 20px 0 10px;
+}
+
+/* Ссылки */
+a {
+    color: #1a3d7c;
+    text-decoration: none;
+    transition: color 0.25s;
+}
+
+a:hover {
+    color: #10407a;
+    text-decoration: underline;
+}
+
+/* Кнопки */
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #1a3d7c;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 15px;
+    transition: background-color 0.3s ease;
+    text-transform: uppercase;
+}
+
+.btn:hover {
+    background-color: #10407a;
+    color: white;
+}
+
+/* Навигация */
+.navbar {
+    background-color: #10407a;
+    padding: 15px 0;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.1);
+}
+
+.navbar .nav-menu {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.navbar .nav-menu li {
+    margin: 0 20px;
+}
+
+.navbar .nav-menu li a {
+    color: white;
+    font-weight: 600;
+    font-size: 15px;
+}
+
+.navbar .nav-menu li a:hover {
+    opacity: 0.8;
+}
+
+/* Новости и карточки */
+.card {
+    background: white;
+    border-radius: 5px;
+    box-shadow: 0 1px 5px rgba(0,0,0,0.1);
+    margin-bottom: 20px;
+    overflow: hidden;
+    padding: 20px;
+}
+
+.card-header {
+    font-weight: 700;
+    font-size: 18px;
+    color: #1a3d7c;
+    margin-bottom: 10px;
+}
+
+.card-body {
+    font-size: 15px;
+    color: #34495e;
+}
+
+/* Таблицы */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    background-color: white;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+th, td {
+    padding: 12px 15px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+    font-size: 14px;
+    color: #34495e;
+}
+
+th {
+    background-color: #1a3d7c;
+    color: white;
+    font-weight: 600;
+}
+
+tr:nth-child(even) {
+    background-color: #f7f9fc;
+}
+
+tr:hover {
+    background-color: #ebf2fa;
+}
+
+/* Футер */
+.footer {
+    background-color: #1a3d7c;
+    color: white;
+    padding: 25px 0;
+    margin-top: 40px;
+    text-align: center;
+    font-size: 14px;
+}
+
+.footer a {
+    color: #a6c8ff;
+    text-decoration: none;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
+
+/* Логотип и шапка */
+.header {
+    display: flex;
+    align-items: center;
+    padding: 20px 0;
+    border-bottom: 3px solid #1a3d7c;
+    margin-bottom: 20px;
+}
+
+.header img {
+    height: 70px;
+    margin-right: 20px;
+}
+
+.header .title {
+    font-size: 28px;
+    font-weight: 700;
+    color: #1a3d7c;
+    text-transform: uppercase;
+}
+
+/* Официальные блоки */
+.official-stamp {
+    border: 2px solid #1a3d7c;
+    background-color: #e9f1fc;
+    padding: 15px;
+    text-align: center;
+    font-style: italic;
+    color: #10407a;
+    margin: 30px 0;
+}
+
+.document-number {
+    font-weight: 700;
+    color: #10407a;
+    margin-top: 5px;
+}
+
+.deadline {
+    color: #d9534f;
+    font-weight: 700;
+    margin-top: 5px;
+}
+
+/* Адаптивность */
+@media (max-width: 768px) {
+    .container {
+        width: 95%;
+    }
+
+    .navbar .nav-menu {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .navbar .nav-menu li {
+        margin: 10px 0;
+    }
+
+    .header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .header img {
+        margin-bottom: 15px;
+    }
+}
