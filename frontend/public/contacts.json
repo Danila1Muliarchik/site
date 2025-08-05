@@ -1,0 +1,18 @@
+[
+  {
+    "id": "director",
+    "name": "Иван Иванов",
+    "position": "Директор",
+    "phone": "+7 (123) 456-7890",
+    "office": "Каб. 101",
+    "photo": "https://via.placeholder.com/100"
+  },
+  {
+    "id": "manager",
+    "name": "Ольга Смирнова",
+    "position": "Менеджер",
+    "phone": "+7 (987) 654-3210",
+    "office": "Каб. 102",
+    "photo": "contacts_image/Coat_of_arms_of_Belarus.svg.png"
+  }
+]
