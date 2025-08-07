@@ -4,7 +4,7 @@
     "name": "Иван Иванов",
     "position": "Директор",
     "phone": "+7 (123) 456-7890",
-    "office": "Каб. 101",
+    "room": "Каб. 101",
     "photo": "https://via.placeholder.com/100"
   },
   {
@@ -12,7 +12,36 @@
     "name": "Ольга Смирнова",
     "position": "Менеджер",
     "phone": "+7 (987) 654-3210",
-    "office": "Каб. 102",
+    "room": "Каб. 102",
     "photo": "contacts_image/Coat_of_arms_of_Belarus.svg.png"
+  },
+  {
+    "id": "manager2",
+    "name": "Лера Смирнова",
+    "position": "Менеджер",
+    "phone": "+7 (987) 654-3210",
+    "room": "Каб. 102",
+    "photo": "contacts_image/react.svg"
+  },
+  {
+    "photo": "contacts_image\\skaly_sklon_dolina_969971_2048x1152.jpg",
+    "name": "123",
+    "position": "",
+    "phone": "",
+    "room": ""
+  },
+  {
+    "photo": "C:/Users/max/Pictures/Saved Pictures/skaly_sklon_dolina_969971_2048x1152.jpg",
+    "name": "12",
+    "position": "123",
+    "phone": "",
+    "room": ""
+  },
+  {
+    "photo": "contacts_image\\skaly_sklon_dolina_969971_2048x1152.jpg",
+    "name": "23123213123",
+    "position": "",
+    "phone": "",
+    "room": ""
   }
 ]
