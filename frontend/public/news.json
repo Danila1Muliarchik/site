@@ -1,14 +1,36 @@
 [
   {
-    "image": "news_image\\skaly_sklon_dolina_969971_2048x1152.jpg",
+    "image": "\\news_image\\skaly_sklon_dolina_969971_2048x1152.jpg",
+    "date": "07.08.2025",
+    "title": "Тест длины текста",
+    "content": "1234567890123456789012345678901234567890123456789012345678901234567890"
+  },
+  {
+    "image": "\\news_image\\skaly_sklon_dolina_969971_2048x1152.jpg",
     "date": "2025-03-12",
-    "title": "Путищестаие в горы",
-    "content": "Путишествие по горам Грузии с компанией"
+    "title": "Путишествие в горы",
+    "content": "Путишествие в горы",
+    "wordFile": "\\docx\\test.docx"
   },
   {
     "image": "news_image\\skaly_sklon_dolina_969971_2048x1152.jpg",
-    "date": "ВЧНРА)",
-    "title": "Сплав по реке Неман",
-    "content": "Сплав по реке нЕМАН НАЧИНАЯ С ГРОДНЕНСКОЙ ОБЛАСТИ И ЕЩЁ ЧТО ТО ЧТО БЫ БЫЛО БОЛЬШЕ 50 СИМВОЛОВ"
+    "date": "2025-08-11",
+    "title": "С новам полем",
+    "content": "Тест файла",
+    "wordFile": "\\docx\\Переделать.docx"
+  },
+  {
+    "image": "news_image\\Capture001.png",
+    "date": "2025-08-12",
+    "title": "Второй тест",
+    "content": "Второй тест",
+    "wordFile": "\\docx\\документ-1.docx"
+  },
+  {
+    "image": "\\news_image\\Capture001.png",
+    "date": "2025-08-11",
+    "title": "1",
+    "content": "1",
+    "wordFile": "\\docx\\Переделать.docx"
   }
 ]

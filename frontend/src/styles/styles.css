@@ -273,6 +273,25 @@ a:hover {
     text-transform: uppercase;
 }
 
+.news-full {
+  padding: 20px;
+}
+
+.news-full p {
+  margin-bottom: 15px;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+.docx-wrapper {
+    background: none !important;
+    padding: 0 !important;
+}
+
+.docx-wrapper .docx {
+  box-shadow: none !important;
+}
+
 /* Адаптивность */
 @media (max-width: 768px) {
     .news-block {

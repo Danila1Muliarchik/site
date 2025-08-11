@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import { Link } from 'react-router-dom';
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
 import '../styles/styles.css';
@@ -31,7 +32,7 @@ export default function HomePage() {
                 <h3>{item.title}</h3>
                 <p><strong>{item.date}</strong></p>
                 <p>{item.content.length > 50 ? item.content.slice(0, 50) + "..." : item.content}</p>
-                <a href="#">Читать далее</a>
+                <Link to={`/news/${index}`} className="btn">Читать далее</Link>
               </div>
             </div>
           ))}

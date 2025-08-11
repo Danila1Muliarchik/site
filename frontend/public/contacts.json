@@ -22,26 +22,5 @@
     "phone": "+7 (987) 654-3210",
     "room": "Каб. 102",
     "photo": "contacts_image/react.svg"
-  },
-  {
-    "photo": "contacts_image\\skaly_sklon_dolina_969971_2048x1152.jpg",
-    "name": "123",
-    "position": "",
-    "phone": "",
-    "room": ""
-  },
-  {
-    "photo": "C:/Users/max/Pictures/Saved Pictures/skaly_sklon_dolina_969971_2048x1152.jpg",
-    "name": "12",
-    "position": "123",
-    "phone": "",
-    "room": ""
-  },
-  {
-    "photo": "contacts_image\\skaly_sklon_dolina_969971_2048x1152.jpg",
-    "name": "23123213123",
-    "position": "",
-    "phone": "",
-    "room": ""
   }
 ]
